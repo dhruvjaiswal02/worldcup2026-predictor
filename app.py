@@ -178,22 +178,20 @@ GROUPS = {
     "Group L": ["England", "Croatia", "Ghana", "Panama"],
 }
 
-# Base Elo ratings (manually calibrated from historical data)
+# Base Elo ratings — trained from all_matches.csv (51,491 real matches, 1872–2026)
 BASE_ELO = {
-    "France": 2003, "Brazil": 1982, "Argentina": 1975, "England": 1940,
-    "Spain": 1933, "Portugal": 1920, "Belgium": 1910, "Netherlands": 1895,
-    "Germany": 1880, "Uruguay": 1845, "Croatia": 1840, "Morocco": 1820,
-    "Norway": 1810, "Colombia": 1800, "Senegal": 1795, "United States": 1790,
-    "Switzerland": 1788, "Mexico": 1780, "Turkey": 1770, "South Korea": 1760,
-    "Denmark": 1755, "Ecuador": 1745, "Canada": 1740, "Japan": 1738,
-    "Austria": 1730, "Algeria": 1720, "Ivory Coast": 1715, "Iran": 1700,
-    "Scotland": 1695, "Australia": 1685, "Czechia": 1680, "Sweden": 1675,
-    "Egypt": 1660, "Tunisia": 1645, "Ghana": 1640, "Paraguay": 1635,
-    "Saudi Arabia": 1620, "Bolivia": 1610, "Cameroon": 1605,
-    "Bosnia and Herzegovina": 1595, "DR Congo": 1585, "South Africa": 1575,
-    "Colombia": 1800, "Uzbekistan": 1530, "Cape Verde": 1520,
-    "New Zealand": 1510, "Qatar": 1505, "Panama": 1495,
-    "Iraq": 1480, "Jordan": 1465, "Haiti": 1440, "Curaçao": 1435,
+    "Spain": 2110, "Argentina": 2090, "France": 2047, "Brazil": 2000,
+    "England": 1999, "Japan": 1987, "Colombia": 1979, "Senegal": 1958,
+    "Portugal": 1952, "Ecuador": 1943, "Netherlands": 1936, "Morocco": 1925,
+    "Croatia": 1911, "Germany": 1908, "Uruguay": 1905, "Mexico": 1892,
+    "Iran": 1889, "Australia": 1888, "Norway": 1882, "Belgium": 1876,
+    "Algeria": 1870, "Switzerland": 1867, "Canada": 1853, "Turkey": 1850,
+    "Uzbekistan": 1847, "South Korea": 1842, "Paraguay": 1833, "Panama": 1818,
+    "Jordan": 1811, "Egypt": 1801, "Ivory Coast": 1795, "Austria": 1793,
+    "United States": 1786, "Tunisia": 1778, "DR Congo": 1772, "New Zealand": 1762,
+    "Iraq": 1734, "Scotland": 1731, "Haiti": 1700, "Czechia": 1696,
+    "Sweden": 1695, "Saudi Arabia": 1682, "Cape Verde": 1653, "South Africa": 1643,
+    "Ghana": 1633, "Curaçao": 1630, "Bosnia and Herzegovina": 1577, "Qatar": 1547,
 }
 
 SQUAD_DATA = {
