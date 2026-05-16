@@ -551,7 +551,7 @@ with tab2:
             texttemplate="%{text}",
             textfont=dict(size=10, color="white"),
             showscale=True,
-            colorbar=dict(title="Prob %", tickfont=dict(color="#8ab8e8"), titlefont=dict(color="#8ab8e8")),
+            colorbar=dict(title=dict(text="Prob %", font=dict(color="#8ab8e8")), tickfont=dict(color="#8ab8e8")),
         ))
         fig.update_layout(
             paper_bgcolor="#0a0f1e", plot_bgcolor="#0a0f1e",
