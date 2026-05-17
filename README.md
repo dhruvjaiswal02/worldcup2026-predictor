@@ -2,16 +2,18 @@
 
 An ML-powered tournament predictor built with Streamlit, using Elo ratings, squad strength intelligence, and Monte Carlo simulation.
 
+**Live App:** https://worldcup2026-predictor-hjpmjpjaxgi8jxn8bbufxi.streamlit.app/ 
+
 **Project Overview**
 This system simulates the entire 2026 FIFA World Cup thousands of times and produces probability estimates for every team at every stage of the tournament. Rather than giving a single prediction, it runs the tournament 1,000 to 10,000 times and counts how often each team wins — giving a realistic probability distribution that accounts for the inherent uncertainty of football.
 
-**Dataset**
+**Dataset:**
 
 51,491 international matches from 1872 to 2026
 
 Fields: Date, Home Team, Away Team, Scores, Tournament Type, Neutral Ground
 
-**How It Works**
+**How It Works:**
 
 **1. Elo Rating System**
 Every team starts at 1500. Ratings update after every match based on result and opponent strength. Stronger opponents beaten = bigger rating gain.
@@ -41,5 +43,7 @@ Win probability uses the standard Elo formula. Draw rate is calibrated to real W
 
 **9. Official 2026 Bracket**
 Follows the real FIFA structure — 12 groups, Round of 32 with runner-up vs runner-up, winner vs crossing runner-up, and winner vs best third-place pairings. Fixed bracket paths ensure same-group teams can't meet before the Semi-Finals.
+
+
 10. Monte Carlo Simulation
 The full tournament is simulated up to 10,000 times. Championship probability = times a team won ÷ total simulations.
